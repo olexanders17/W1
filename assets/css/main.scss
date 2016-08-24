@@ -1,14 +1,15 @@
-*{
-  border:0px;
+* {
+  border: 0px;
   margin: 0px;
 }
 
 body {
   background: white;
+  font-family: Arial;
 }
 
 .b-1 {
-  display: flex;
+
   align-content: space-between;
   height: 40px;
   .blank {
@@ -18,19 +19,22 @@ body {
 }
 
 .logo {
-  flex: 25%;
+  display: inline-block;
 
   background-color: #CBCBCA;
+  margin-left: 30px;
 
-  height: inherit;
-  line-height: 30px;
+  height: 30px;
+  width: 190px;
+  /*line-height: 30px;*/
   font-size: 17px;
   text-align: center;
 
 }
 
 nav {
-  flex: 60%;
+  display: inline-block;
+  float: right;
   height: inherit;
   line-height: 30px;
   font-size: 17px;
@@ -69,23 +73,34 @@ nav {
 
 }
 
+.b-21-text {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+
+.b-21 div {
+  display: inline-block;
+}
+
 .b-21 {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  align-content: space-between;
+
 }
 
 .portret {
   width: 200px;
-  display: inherit;
-  height: 100%;
-  flex-basis: 500px;
+  border: 0px solid black;
+  display: inline-block;
+  float: right;
 
 }
 
+.portret img {
+  float: right;
+}
+
 .call-btn {
-  margin-top:20px ;
+  margin-top: 20px;
   height: 30px;
   width: 200px;
   border: 0px;
@@ -95,6 +110,79 @@ nav {
   margin-left: 100px;
   color: white;
 
+}
+
+.b-3 {
+  height: 41px;
+}
+
+.b-3 > div {
+  display: inline-block;
+}
+
+.b-3 ul {
+  margin-left: 150px;
+  list-style: none;
+  display: inline-block;
 
 }
 
+.b-3 li {
+  display: inline-block;
+  margin: 5px 5px;
+  margin-right: 20px;
+  color: rgba(63, 48, 46, 0.9);
+  background-color: #CBCBCA;
+  padding: 5px 5px 5px 5px;
+}
+
+.b-4 {
+  height: 60px;
+  background-color: #17B8E7;
+}
+
+.b-41 > div {
+  display: inline-block;
+
+  height: 55px;
+  background: beige;
+
+}
+
+.b-41, .b-42 {
+  display: inline-block;
+}
+
+.big {
+  height: 40px;
+  margin: 10px;
+}
+
+.b-9 > div {
+  margin: auto;
+  text-align: center;
+
+}
+.b-9 {
+  background-color: #CBCBCA;
+}
+
+.round {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  position: relative;
+  font-size: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px black ;
+}
+
+.round-innet-text {
+  margin: 40px 10px 10px 7px;
+  position: absolute;
+  font-size: 14px;
+
+}
